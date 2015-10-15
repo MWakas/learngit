@@ -1,0 +1,5 @@
+curl -X POST http://127.0.0.1:5984/_replicate -d '{"source":"members", "target":"http://nbsbell-qa.ole.org:5994/members"}' -H 'Content-Type: application/json'
+
+curl -X POST -d '{"""source""":"""members""","""target""":"""http://nbsbell-qa.ole.org:5994/members"""}' -H 'Content-Type: application/json' http://127.0.0.1:5984/_replicate
+
+curl -H "Content-Type: application/json" -X POST http://localhost:5984/_replicate -d ' {"source":"members", "target": "http://nbsbell-qa.ole.org:5994/members"} '

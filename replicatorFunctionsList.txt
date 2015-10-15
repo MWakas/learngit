@@ -1,0 +1,35 @@
+collectionlistFilter:function (doc, req) {
+        if (doc._id == "_design/bell") {
+            return false;
+        } else {
+            return true;
+        }
+    }
+coursestepFilter:function (doc, req) {
+        if (doc._id == "_design/bell") {
+            return false;
+        } else {
+            return true;
+        }
+    }
+groupsFilter:function (doc, req) {
+        if (doc._id == "_design/bell") {
+            return false;
+        } else {
+            return true;
+        }
+    }
+publictionsFilter:function (doc, req) {
+        if (doc._id == "_design/bell") {
+            return false;
+        } else {
+            return true;
+        }
+    }
+resourcesFilter:function (doc, req) {
+        if (doc._id == "_design/bell") {
+            return false;
+        } else {
+            return true;
+        }
+    }
